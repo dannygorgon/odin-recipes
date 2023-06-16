@@ -1,12 +1,77 @@
 .background {
-    background-image: url(https://wallpaperaccess.com/full/84282.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+  background-image: url(https://wallpaperaccess.com/full/84282.jpg);
+  width: auto 100%;
+  height: 100vh ;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img.recipeimage {
-    width:50%;
+  width: 40%;
+  height: 40%;
+  padding: 20px;
 }
 
+.recipetitle {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.recipes {
+  display: flex;
+  
+  font-size: 40px;
+  
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  
+}
+
+.recipepreview {
+  width: 25%;
+}
+
+.column {
+  float: left;
+  background-color: rgb(126, 118, 241);
+  box-shadow: 10px 5px 5px rgba(38, 5, 158, 0.63);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  opacity: 0.81;
+  
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 140, 255);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(45, 0, 128);
+  text-decoration: none;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
