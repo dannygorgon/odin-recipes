@@ -1,3 +1,7 @@
+body {
+  
+}
+
 .background {
   background-color: #00676f;
   width: auto 100%;
@@ -15,7 +19,7 @@
 .images img {
   max-width: 60%;
   height: auto;
-  display: block;
+  display: flex;
   margin: 0 auto;
   border-radius: 25px;
 }
@@ -31,8 +35,10 @@
   font-size: 40px;
   color: #9deb59;
   background-color:#003401;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 25px;
+  
   
 }
 
@@ -85,6 +91,7 @@
 a:link {
   color: #003401;
   text-decoration: none;
+  font-size: 30px;
 }
 
 /* visited link */
