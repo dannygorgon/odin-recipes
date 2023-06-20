@@ -32,12 +32,14 @@ body {
 
 .recipetitle {
   font-family: "Courier New", Courier, monospace;
-  font-size: 40px;
+  font-size: 50px;
   color: #9deb59;
   background-color:#003401;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0 25px;
+  
+  
   
   
 }
