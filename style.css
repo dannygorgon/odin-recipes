@@ -37,17 +37,17 @@
 }
 
 .recipes {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   font-size: 40px;
   
   flex-wrap: wrap;
   padding: 10px;
   margin: 30px;
-  text-align: center;
+  text-align: center; */
   
-  
-  
+  max-width: 500px;
+
 }
 
 
